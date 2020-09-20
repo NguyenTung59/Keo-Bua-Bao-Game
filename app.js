@@ -69,7 +69,7 @@ function game(userChoice) {
 function win(userChoice, computerChoice) {
     userScore++;
     userScoreSpan.innerHTML = userScore;
-    resultDiv.innerHTML = ` ${convertKeyWords(userChoice)} beats ${convertKeyWords(computerChoice)} 🔥 YOU WIN! `;
+    resultDiv.innerHTML = ` ${convertKeyWords(userChoice)} VS ${convertKeyWords(computerChoice)} 🔥 Bạn Thắng! `;
 }
 
 function lose(userChoice, computerChoice) {
